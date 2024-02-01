@@ -1,0 +1,47 @@
+Header{
+
+    color:navy;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 2px inset ;
+    
+}
+header h1{
+    margin: 0;
+
+}
+nav ul{
+ text-align: center;
+ 
+}
+nav a{
+    color:navy;
+    padding: 20px;
+
+}
+body
+{
+background-color: white;
+margin: 0;
+color:navy;
+}
+#logo{
+    height: 70px;
+}
+#smcc{
+    padding-left: 400px;
+    padding-top: 80px;
+}
+nav ul a{
+    text-decoration: none;
+}
+#courses {
+    height: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
