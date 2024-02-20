@@ -34,7 +34,12 @@ nav ul a{
 #pres{
     height: 700px;
     text-align: center;
-    border-radius: 20px;
-    
+    border-radius: 20px;   
+}
+#college{
+    text-align: center;
+}
+#seniorhigh{
+    text-align: center;
 }
 
