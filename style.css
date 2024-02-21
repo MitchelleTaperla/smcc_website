@@ -36,13 +36,11 @@ nav ul a{
     text-align: center;
     border-radius: 20px;   
 }
+
 table{
     padding-left: 100px;
     text-align: center;
-    border: 1px solid;
-    background-color: rgb(23, 47, 117);
-    color: white;
-    border-radius: 15px;
+    color: navy;  
 }
 h2{
     text-align: center;
@@ -52,11 +50,10 @@ h1{
 }
 #seniorhigh{
     text-align: justify;
+    color: navy;
     border: 1px solid;
-    background-color: rgb(23, 47, 117);
-    color: white;
-    margin-left: 5px;
-    border-radius: 15px;
+   
+   
     
 }
 
