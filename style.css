@@ -24,7 +24,6 @@ nav a{
 body{
 margin: 0;
 color:navy;
-text-align: center;
 }
 #logo{
     height: 70px;
@@ -37,7 +36,14 @@ nav ul a{
     text-align: center;
     border-radius: 20px;   
 }
-#college{
+table{
+    padding-left: 100px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h1{
     text-align: center;
 }
 #seniorhigh{
