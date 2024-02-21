@@ -39,6 +39,10 @@ nav ul a{
 table{
     padding-left: 100px;
     text-align: center;
+    border: 1px solid;
+    background-color: rgb(23, 47, 117);
+    color: white;
+    border-radius: 15px;
 }
 h2{
     text-align: center;
@@ -47,6 +51,12 @@ h1{
     text-align: center;
 }
 #seniorhigh{
-    text-align: center;
+    text-align: justify;
+    border: 1px solid;
+    background-color: rgb(23, 47, 117);
+    color: white;
+    margin-left: 5px;
+    border-radius: 15px;
+    
 }
 
