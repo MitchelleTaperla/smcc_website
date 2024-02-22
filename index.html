@@ -16,22 +16,42 @@
         <H1><b>Saint Michael College of Caraga</b></H1>
     </header>
     <main>
-   
-    
-    <nav>
-        
-        <ul>
-            <a href="#home">HOME</a>
-            <a href="#about">ABOUT SMCC</a>
-            <a href="#courses">COURSES OFFERED</a>
-            <a href="#services">SERVICES</a>
-            <a href="#contact">CONTACT</a>
-
-        </ul>
-        </nav>
+       <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SMCC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target ="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item">
+             <a class="nav-link" href="#about">About</a></li>
+             <li class="nav-item">
+             <a class="nav-link" href="#courses">Courses Offered</a></li>
+             <li class="nav-item">
+             <a class="nav-link" href="#services">Services</a></li>
+             <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+             </li>
+            </ul>
+          </div>
+        </div>
+       </nav>
+       <main>
+        <br>
         <article id="home"> 
+            
             <section>
-                <img id="pres" src="img/presidents-corner.png" alt="pres">
+                <div class="container center-content">
+                    <img id="pres" src="img/presidents-corner.png" alt="president" class="img-fluid">
+                </div>
+               
                 <br><br>
                 <h2>VISION</h2>
                 <p>
@@ -296,162 +316,147 @@ At present, SMCC is getting Bigger, Better, Stronger, and Holier.
             </p>
             </section>
                 <br><br>
-                <h2>Achievements</h2>
-                <br><br>
+                <div class="container">
+                    <h2>Achievements</h2>
+                    <br><br>
                     <section>
-                        <table>
-                            <tr>
-                                <td id="a">
-                            <img src="img/ched-gawad-parangal-2023-jun-trophy.jpg" alt="ched" height="300px">
-                        </td>
-                        <td id="a">
-                            <img src="img/ceap-75-years-2023.jpg" alt="ceap" height="300px">
-                        </td>
-                        <td id="a">
-                            <img src="img/tesda-accreditation-2023-sep.jpg" alt="tesda" height="300px">
-                        </td> 
-                        </tr>
-                    </table> 
-                    <table>
-                        <tr>
-                            <td id="c">
-                                <img src="img/asean-culinary-expo-2023.png" alt="asean" height="300px">
-                            </td>
-                            <td id="c">
-                                <img src="img/pacucoa-beed-2023-jul.jpg" alt="pacucua" height="300px">
-                            </td>
-                        </tr>
-                    </table>  
+                      <div class="row">
+                        <div class="col-md-4">
+                          <img src="img/ched-gawad-parangal-2023-jun-trophy.jpg" alt="ched" class="img-fluid">
+                        </div>
+                        <div class="col-md-4">
+                          <img src="img/ceap-75-years-2023.jpg" alt="ceap" class="img-fluid">
+                        </div>
+                        <div class="col-md-4">
+                          <img src="img/tesda-accreditation-2023-sep.jpg" alt="tesda" class="img-fluid">
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6">
+                          <img src="img/asean-culinary-expo-2023.png" alt="asean" class="img-fluid">
+                        </div>
+                        <div class="col-md-6">
+                          <img src="img/pacucoa-beed-2023-jul.jpg" alt="pacucua" class="img-fluid">
+                        </div>
+                      </div>
                     </section>
+                  </div>
         </article>
         <article id="courses">
             <br><br>
             <h1>OFFERED COURSES</h1>
             <br><br>
             <h2>College</h2>
-            
-                <section>
-                    <table id="table"> 
-                        <tr>
-                            <td>
-                    <figure>
-                        <img src="img/cas.png" alt="cas" height="200px">
-                        <br><br>
-                            <strong>College of Arts and Sciences</strong>
+            <section class="container mt-5">
+                <div class="row">
+                  <div class="col-md-4">
+                    <figure class="text-center">
+                      <img src="img/cas.png" alt="cas" class="img-fluid">
+                      <figcaption class="mt-2"><strong>College of Arts and Sciences</strong></figcaption>
                     </figure>
-                     </td>
-                    <td>
-                        <figure>
-                            <img src="img/cbm.png" alt="cbm" height="200px">
-                           <br><br>
-                            <strong>College Of Business and Management</strong>
-                        </figure>
-                     </td>
-                        <td>
-                        <figure>
-                            <img src="img/ccis.png" alt="ccis" height="200px">
-                            <br><br>
-                            <strong>College of Computing and Information Sciences</strong>
-                        </figure>
-                     </td>
-                    </tr>
-                     <tr>
-                        <td>
-                            <figure>
-                            <img src="img/ccje.png" alt="ccje" height="200px">
-                           <br><br>
-                           <strong>College of Criminal Justice Education</strong>
-                        </figure>
-                      </td>
-                        <td>
-                            <figure>
-                            <img src="img/cte.png" alt="cte" height="200px">
-                           <br><br>
-                         <strong>College of Teacher Education</strong>
-                        </figure>
-                     </td>
-                        <td>
-                        <figure>
-                            <img src="img/cthm.png" alt="cthm" height="200px">
-                            <br><br>
-                            <strong>College of Tourism and Hospital Management</strong>
-                        </figure>  
-                    </td>
-                    </tr>
-                    </table>     
-                </section>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="text-center">
+                      <img src="img/cbm.png" alt="cbm" class="img-fluid" >
+                      <figcaption class="mt-2"><strong>College Of Business and Management</strong></figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="text-center">
+                      <img src="img/ccis.png" alt="ccis" class="img-fluid">
+                      <figcaption class="mt-2"><strong>College of Computing and Information Sciences</strong></figcaption>
+                    </figure>
+                  </div>
+                </div>
+            
+                <div class="row mt-4">
+                  <div class="col-md-4">
+                    <figure class="text-center">
+                      <img src="img/ccje.png" alt="ccje" class="img-fluid">
+                      <figcaption class="mt-2"><strong>College of Criminal Justice Education</strong></figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="text-center">
+                      <img src="img/cte.png" alt="cte" class="img-fluid">
+                      <figcaption class="mt-2"><strong>College of Teacher Education</strong></figcaption>
+                    </figure>
+                  </div>
+                  <div class="col-md-4">
+                    <figure class="text-center">
+                      <img src="img/cthm.png" alt="cthm" class="img-fluid">
+                      <figcaption class="mt-2"><strong>College of Tourism and Hospital Management</strong></figcaption>
+                    </figure>
+                  </div>
+                </div>
+              </section>
                 <br><br>
                 <h2>Senior High School</h2>
-                <br><br>
-                <section>
-                    <table id="table">
-                        <tr>
-                            <td id="seniorhigh">
-                    <h3>Academic Track</h3>
-                    <br>
-                    <b>ABM</b><p>Accountancy, Business and Management</p>
-                    <h4>GAS</h4>
-                    <figcaption>General Academic Strand</figcaption>
-                    <h4>HUMSS</h4>
-                    <figcaption>Humanities and Social Sciences</figcaption>
-                    <h4>STEM</h4>
-                    <figcaption>Science, Technology, Engineering and Mathematics</figcaption>
-                </td>  
-                <td>
-                <figure>
-                    <img src="img/shs (1).png" alt="seniorhigh" height="200px">
-                </figure>
-            </td>
-            <td id="seniorhigh">
-                <br>
-                <h3>Technical-Vocational Track</h3>
-                    <h4>Home Economics</h4>
-                    <p>
-                        -Cookery NCII
-                        <br>
-                        -Food and Beverage Sevices NCII
-                        <br>
-                        -Housekeeping NCII
-                    </p>
-                    <h4>Information Technology</h4>
-                    <p>
-                        - Animation NCII
-                        <br>
-                        - Computer System Servicing NCII
-                    </p>
-                </td>
-                </tr>
-                </table>
-                </section>
-                <br><br>
-            <section id="basiceducation">
-                <h2 style="padding-right: 30px;">Basic Education</h2>
-                <br>
-
-                <table id="b">
-                    <tr>
-                        <td>
-                            <br><br>
-                <h3>Nursery & Kindergarten</h3>
-                <br>
-                    <p>Nursery- <strong>4 years old</strong></p>
-                    <p>Kindergarten - <strong>5 years Old</strong></p>
-                </td>
-                <td>
+                <br><br>  
+                <section class="container">
                     <figure>
-                <img src="img/elementary.png" alt="elementary" height="200px">
-            </figure>
-                <p>Grade 1 to 6</p>
-            </td>
-            <td>
-                <figure>
-                    <img src="img/jhs.png" alt="jhs" height="200px">
-                </figure>
-                <p>Grade 7 to 10</p>
-            </td>
-            </tr>
-            </table>
+                        <img style="padding-left: 450px;" src="img/shs (1).png" alt="seniorhigh" height="200px">
+                    </figure>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="seniorhigh">
+                                <h3>Academic Track</h3>
+                                <br>
+                                <b>ABM</b><p>Accountancy, Business and Management</p>
+                                <h4>GAS</h4>
+                                <figcaption>General Academic Strand</figcaption>
+                                <h4>HUMSS</h4>
+                                <figcaption>Humanities and Social Sciences</figcaption>
+                                <h4>STEM</h4>
+                                <figcaption>Science, Technology, Engineering and Mathematics</figcaption>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="seniorhigh">
+                                <br>
+                                <h3>Technical-Vocational Track</h3>
+                                <h4>Home Economics</h4>
+                                <p>
+                                    -Cookery NCII
+                                    <br>
+                                    -Food and Beverage Sevices NCII
+                                    <br>
+                                    -Housekeeping NCII
+                                </p>
+                                <h4>Information Technology</h4>
+                                <p>
+                                    - Animation NCII
+                                    <br>
+                                    - Computer System Servicing NCII
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </section>
+                <br><br>
+                <section id="basiceducation">
+                    <h2 style="padding-right: 30px;">Basic Education</h2>
+                    <section id="basiceducation" class="container">
+                        <br>
+                    
+                        <div class="row">
+                            <div class="col-sm-12 col-md-4">
+                                <h3>Nursery & Kindergarten</h3>
+                                <p>Nursery- <strong>4 years old</strong></p>
+                                <p>Kindergarten - <strong>5 years old</strong></p>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+                               
+                                <h3>Grade 1 to 6</h3>
+                            </div>
+                            <div class="col-sm-12 col-md-4">
+
+                                <h3>Grade 7 to 10</h3>
+                            </div>
+                        </div>
+                    </section>
+                   
         </article>
         <article id="services">
             <br><br>
